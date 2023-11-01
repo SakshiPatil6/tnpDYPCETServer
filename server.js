@@ -56,9 +56,9 @@ const uploadGallery = multer({
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: "root",
+    user: "id21485239_root",
     password: '',
-    database:'tandp'
+    database:'id21485239_tandp'
 })
 
 app.post('/t', (req, res) => {
